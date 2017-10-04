@@ -1,0 +1,10 @@
+C:\Kurse\VB.NET Grundlagen\2017_10_04_VBNET_Burghausen\Testresultat\bin\Debug\Testresultat.exe.config
+C:\Kurse\VB.NET Grundlagen\2017_10_04_VBNET_Burghausen\Testresultat\bin\Debug\Testresultat.exe
+C:\Kurse\VB.NET Grundlagen\2017_10_04_VBNET_Burghausen\Testresultat\bin\Debug\Testresultat.pdb
+C:\Kurse\VB.NET Grundlagen\2017_10_04_VBNET_Burghausen\Testresultat\bin\Debug\Testresultat.xml
+C:\Kurse\VB.NET Grundlagen\2017_10_04_VBNET_Burghausen\Testresultat\obj\Debug\Testresultat.Resources.resources
+C:\Kurse\VB.NET Grundlagen\2017_10_04_VBNET_Burghausen\Testresultat\obj\Debug\Testresultat.vbproj.GenerateResource.Cache
+C:\Kurse\VB.NET Grundlagen\2017_10_04_VBNET_Burghausen\Testresultat\obj\Debug\Testresultat.vbproj.CoreCompileInputs.cache
+C:\Kurse\VB.NET Grundlagen\2017_10_04_VBNET_Burghausen\Testresultat\obj\Debug\Testresultat.exe
+C:\Kurse\VB.NET Grundlagen\2017_10_04_VBNET_Burghausen\Testresultat\obj\Debug\Testresultat.xml
+C:\Kurse\VB.NET Grundlagen\2017_10_04_VBNET_Burghausen\Testresultat\obj\Debug\Testresultat.pdb
