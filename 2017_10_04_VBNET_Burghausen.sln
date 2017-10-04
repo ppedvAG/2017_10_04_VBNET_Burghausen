@@ -7,6 +7,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HelloVB", "HelloVB\HelloVB.
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IntegerCalc", "IntegerCalc\IntegerCalc.vbproj", "{587B8442-3B97-431F-AA74-B59E2CD9B092}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Kontrollstrukturen", "Kontrollstrukturen\Kontrollstrukturen.vbproj", "{C98F94B2-5912-4B7B-BE8C-FF28BEFBADF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{587B8442-3B97-431F-AA74-B59E2CD9B092}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{587B8442-3B97-431F-AA74-B59E2CD9B092}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{587B8442-3B97-431F-AA74-B59E2CD9B092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C98F94B2-5912-4B7B-BE8C-FF28BEFBADF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C98F94B2-5912-4B7B-BE8C-FF28BEFBADF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C98F94B2-5912-4B7B-BE8C-FF28BEFBADF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C98F94B2-5912-4B7B-BE8C-FF28BEFBADF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
