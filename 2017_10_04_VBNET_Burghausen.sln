@@ -15,6 +15,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MethodenUndParameter", "Met
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Klassen", "Klassen\Klassen.vbproj", "{2B63420E-6F8A-4485-9BB4-65193654560B}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Vererbung", "Vererbung\Vererbung.vbproj", "{511594F3-5A25-488A-9FAD-B7A2BDFB7E97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{2B63420E-6F8A-4485-9BB4-65193654560B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B63420E-6F8A-4485-9BB4-65193654560B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B63420E-6F8A-4485-9BB4-65193654560B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511594F3-5A25-488A-9FAD-B7A2BDFB7E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511594F3-5A25-488A-9FAD-B7A2BDFB7E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511594F3-5A25-488A-9FAD-B7A2BDFB7E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511594F3-5A25-488A-9FAD-B7A2BDFB7E97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
