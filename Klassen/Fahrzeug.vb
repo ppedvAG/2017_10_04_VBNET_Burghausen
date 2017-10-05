@@ -2,7 +2,24 @@
 
 Public Class Fahrzeug
 
-    Private _farbe As String        'Rot Blau Grün Gelb
+    Public Const MaxGeschwindigkeit As Integer = 200
+
+    Public Sub New(farbe As String)
+        Me.Farbe = farbe
+    End Sub
+    Public Sub New(geschwindigkeit As Integer)
+        Me.Geschwindigkeit = geschwindigkeit
+    End Sub
+    Public Sub New(farbe As String, geschwindigkeit As Integer)
+        Me.New(farbe)
+        Me.Geschwindigkeit = geschwindigkeit
+    End Sub
+    Public Sub New(farbe As String, geschwindigkeit As Integer, erstzulassung As Date)
+        Me.New(farbe, geschwindigkeit)
+        Me.Erstzulassung = erstzulassung
+    End Sub
+
+    Private _farbe As String
     Public Property Farbe As String
         Get
             Return _farbe
@@ -24,8 +41,8 @@ Public Class Fahrzeug
             Return _geschwindigkeit
         End Get
         Set(value As Integer)
-            If value > 200 Then
-                value = 200
+            If value > MaxGeschwindigkeit Then
+                value = MaxGeschwindigkeit
             End If
 
             _geschwindigkeit = value
@@ -33,7 +50,10 @@ Public Class Fahrzeug
     End Property
 
     Private _erstzulassung As Date
-    Public Property Erstzulassung() As Date
+    ''' <summary>
+    ''' Die Erstzulassung des Fahrzeugs.
+    ''' </summary>
+    Public Property Erstzulassung As Date
         Get
             Return _erstzulassung
         End Get
@@ -55,15 +75,29 @@ Public Class Fahrzeug
     'End Sub
 #End Region
 
+    ''' <summary>
+    ''' Beschleunigt das Fahrzeug um einen übergebenen Wert.
+    ''' </summary>
+    ''' <param name="dV">Die Geschwindigkeitsänderung.</param>
     Public Sub Beschleunigen(dV As Integer)
         Geschwindigkeit += dV
     End Sub
+
+    ''' <summary>
+    ''' Beschleunigt das Fahrzeug um einen übergebenen Faktor.
+    ''' Die Geschwindigkeit wird mit dem Faktor multipliziert.
+    ''' </summary>
+    ''' <param name="faktor">Die Geschwindigkeitsänderung.</param>
     Public Sub Beschleunigen(faktor As Double)
         Geschwindigkeit = CInt(Geschwindigkeit * faktor)
     End Sub
 
     Public Sub Bremsen(dV As Integer)
         Geschwindigkeit -= dV
+    End Sub
+
+    Public Overloads Sub Finalize() ' Destruktor
+
     End Sub
 
 End Class
