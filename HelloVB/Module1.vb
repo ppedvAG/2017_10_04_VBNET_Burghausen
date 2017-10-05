@@ -23,9 +23,12 @@ Module Module1
         zahl = 6 + 8
         zahl = 6 - 8
         zahl = 6 * 8
-        'zahl = 13 / 5   ' Ergebnis: 3 -> gerundet
+        zahl = CInt(13 / 5)   ' Ergebnis: 3 -> gerundet
         zahl = 13 \ 5   ' Ergebnis: 2 -> Alles ab dem Komma abschneiden
         zahl = 14 Mod 5 ' Rest der ganzahligen Division
+
+        zahl = CType(9.7, Integer)
+        zahl = CInt(9.7)
 
         ' Vergleichsoperatoren
         bedingung = 5 < 7
@@ -48,12 +51,13 @@ Module Module1
 
         Console.WriteLine("Das Ergebnis der Bedingung war: " & bedingung & ".")
         Console.WriteLine("Das Ergebnis der Bedingung war: {0}.", bedingung)
-        Console.WriteLine($"Das Ergebnis der Bedingung war: {bedingung}.")
+        Console.WriteLine($"Das Ergebnis der Bedingung war: {bedingung}.")  ' string interpolation
 
         Console.Write("Bite geben Sie eine Zahl ein: ")
         Dim eingabe As String = Console.ReadLine()
 
         zahl = Convert.ToInt32(eingabe)
+        zahl = CInt(eingabe)
         zahl = Integer.Parse(eingabe)
 
         Console.WriteLine($"Die Eingabe war: {zahl + 8}")
