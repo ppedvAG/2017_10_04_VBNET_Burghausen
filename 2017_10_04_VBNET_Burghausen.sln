@@ -23,6 +23,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VerbergenUndÜberschreiben"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AbstrakteKlassen", "AbstrakteKlassen\AbstrakteKlassen.vbproj", "{A9AF2A9A-50F8-4E19-9848-559276AEADD3}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Interfaces", "Interfaces\Interfaces.vbproj", "{46AE105F-BA1C-417C-9B6A-FA471F49F701}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{A9AF2A9A-50F8-4E19-9848-559276AEADD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9AF2A9A-50F8-4E19-9848-559276AEADD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9AF2A9A-50F8-4E19-9848-559276AEADD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46AE105F-BA1C-417C-9B6A-FA471F49F701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46AE105F-BA1C-417C-9B6A-FA471F49F701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46AE105F-BA1C-417C-9B6A-FA471F49F701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46AE105F-BA1C-417C-9B6A-FA471F49F701}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
