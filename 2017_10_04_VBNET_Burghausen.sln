@@ -33,6 +33,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Logik", "Logik\Logik.vbproj
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UI", "UI\UI.vbproj", "{6B538030-8E7E-460B-A97E-C24EFA07BEC0}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Exceptions", "Exceptions\Exceptions.vbproj", "{FE1ACE50-23A5-47E6-9445-FE5DE68307E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{6B538030-8E7E-460B-A97E-C24EFA07BEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B538030-8E7E-460B-A97E-C24EFA07BEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B538030-8E7E-460B-A97E-C24EFA07BEC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE1ACE50-23A5-47E6-9445-FE5DE68307E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE1ACE50-23A5-47E6-9445-FE5DE68307E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE1ACE50-23A5-47E6-9445-FE5DE68307E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE1ACE50-23A5-47E6-9445-FE5DE68307E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
