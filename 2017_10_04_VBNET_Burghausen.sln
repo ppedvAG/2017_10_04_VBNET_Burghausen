@@ -35,6 +35,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UI", "UI\UI.vbproj", "{6B53
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Exceptions", "Exceptions\Exceptions.vbproj", "{FE1ACE50-23A5-47E6-9445-FE5DE68307E1}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OperatorenUeberladen", "OperatorenUeberladen\OperatorenUeberladen.vbproj", "{504003AC-6A02-45B6-80C1-F8A36D835E31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{FE1ACE50-23A5-47E6-9445-FE5DE68307E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE1ACE50-23A5-47E6-9445-FE5DE68307E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE1ACE50-23A5-47E6-9445-FE5DE68307E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{504003AC-6A02-45B6-80C1-F8A36D835E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{504003AC-6A02-45B6-80C1-F8A36D835E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{504003AC-6A02-45B6-80C1-F8A36D835E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{504003AC-6A02-45B6-80C1-F8A36D835E31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
