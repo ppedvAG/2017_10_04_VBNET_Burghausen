@@ -15,6 +15,8 @@
         k.Farbe = "Grün"
         k.Radius = 2.12
         k.Zeichnen()
+        Dim gk As Grafik = k
+        gk.Zeichnen()
 
         Console.WriteLine()
 

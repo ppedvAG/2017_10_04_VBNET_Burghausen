@@ -10,6 +10,15 @@
         Verwende(k)
         Verwende(l)
 
+
+        Dim grafiken = New List(Of Grafik)
+        grafiken.Add(k)
+        grafiken.Add(l)
+
+        For Each g In grafiken
+            g.Zeichnen()
+        Next
+
         Console.ReadKey()
 
     End Sub

@@ -96,7 +96,7 @@ Public Class Fahrzeug
         Geschwindigkeit -= dV
     End Sub
 
-    Public Overloads Sub Finalize() ' Destruktor
+    Protected Overrides Sub Finalize() ' Destruktor
 
     End Sub
 
